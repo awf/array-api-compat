@@ -139,7 +139,7 @@ def is_ndonnx_array(x):
     is_jax_array
     is_pydata_sparse_array
     """
-    # Avoid importing torch if it isn't already
+    # Avoid importing ndonnx if it isn't already
     if 'ndonnx' not in sys.modules:
         return False
 
